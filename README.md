@@ -1,60 +1,27 @@
-# p5.js Template
+# Final Project
 
-This is a README file that can be used to describe and document your assignment.
+##### Plan A
+A customized 3D typeface editor. (might interactive with some physical component)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
+Reference: 
+- <video controls src="kiel danger mutschelknaus | New STG is up and public! STG v.Boost! Get your extrusion on and play with some dimensional typography. Link in bio. Tons of features... | Instagram.mp4" title="Title"></video>
+- https://spacetypegenerator.com
 
 
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+##### Plan B
+Interactive (ultura-sound sensor based) poster. (e.g express the water usage in AI industry)
+
+- ![Reference_Motion Capture](./planreference1.gif)
+- ![Reference_Interactive Shapes](./planreference2.png)
+- https://player.vimeo.com/video/103780330?title=0&byline=0&portrait=0&autoplay=true&color=cb2027
+
+##### Plan C
+Musical visualization along with controllable node. (explore more "forms" besides "waves")
+
+- ![Reference_Sound Viualization 1](./planreference3.jpg)
+- ![Reference_Sound Viualization 2](./planreference4.jpg)
+- ![Reference_Sound Viualization 3](./planreference5.jpg)
 
 
-Image on repo:  
-![image description](./file-name.jpg)
 
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+--------------------------------------------------------------------------
