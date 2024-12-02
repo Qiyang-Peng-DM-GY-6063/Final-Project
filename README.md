@@ -36,3 +36,90 @@ Musical visualization along with controllable node. (explore more "forms" beside
 
 
 --------------------------------------------------------------------------
+
+## Week II
+
+## Intro
+
+Visual Experimentation - I aim to combine both type and sound together to create a artistic-looking Musical teleprompter.
+
+## **Technical Plan**
+
+### **Arduino:**
+
+- Read input from multiple potentiometer to control different areas of the sound
+
+### Javascript
+
+- receives data from arduino?
+- load and play music
+- analyze audio in real-time
+- synchronize lyrics display along with correct timing of the music
+- visual effects (might reference to 3d type)
+- 
+
+### **Potential Data/ Libraries/ Components**
+
+Data
+
+- mp3/ WAV
+- LRC (lyrics)
+
+Libraries:
+
+- p5.js
+- p5.sound
+- Tone.js (might)
+
+Components:
+
+- potentiometers
+
+### **There will be several difficulties:**
+
+- match the specific lyrics with time
+- apply visual effects based on the real-time music
+- (might) implement feature that allow user to upload their own song and lyrics
+
+### Some Codes:
+
+```jsx
+//pre-set
+function preload() {
+  song = loadSound();
+  lyrics = loadJSON(); 
+}
+
+function setup(){
+	createCanvas(windowWidth, windowHeight);
+
+	//connect to arduino
+	//serial port - new p5.SerialPort();
+	get data from arduino
+	
+	//sound analysis();
+	song.play();
+}
+
+function draw() {
+  background(0);
+  
+  // current time
+  let currentTime = song.currentTime();
+  
+  // Update current lyric based on time
+  
+  // Display current lyric
+  // + visual effect
+  // could reference to https://spacetypegenerator.com
+  
+  // add visual effects based on audio
+   
+  //get data from arduino? -  change based on amplitude & loudness
+  // Adjust visuals based on sensor data
+}
+
+```
+
+Visual Explore
+ ![Test](./visual_explore.png)
