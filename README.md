@@ -123,3 +123,15 @@ function draw() {
 
 Visual Explore
  ![Test](./visual_explore.png)
+
+
+--------------------------------------------------------------------------
+
+## Week III
+
+I mainly focusing on make the code read the lrc file this week and 
+make them to show up on the web in real-time.
+
+Process
+ ![Process1](./Process1.png)
+ ![Process2](./Process2.png)
