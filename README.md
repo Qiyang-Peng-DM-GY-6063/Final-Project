@@ -1,5 +1,8 @@
 # Final Project
 
+### Preview
+ ![Preview](./Preview.png)
+
 ##### Plan A
 A customized 3D typeface editor. (might interactive with some physical component)
 
@@ -132,6 +135,72 @@ Visual Explore
 I mainly focusing on make the code read the lrc file this week and 
 make them to show up on the web in real-time.
 
+I tried to use callback function to run the code after file loading finished.
+（ Function reference: A function reference points to a function definition, 
+that can be called at runtime. ）
+
+Next week's code to-do:
+
+//further adjusting the visuals
+
+//get data from arduino -  change based on amplitude & loudness
+// Adjust visuals based on sensor data
+
 Process
  ![Process1](./Process1.png)
  ![Process2](./Process2.png)
+
+--------------------------------------------------------------------------
+## Week IV (final)
+
+### Introduction:
+
+Musical visualization with a controllable node. Create visual forms based on the 
+lyrics and the amplitude of the high, mid, and bass frequencies of real-time music, 
+while also allowing these forms to be adjusted by potentiometers.
+
+### Reflection:
+
+I aim to design this lyric visualization to exhibit both playfulness and practicality. 
+While designing, I didn’t delve too deeply into its philosophical meaning. However, 
+I realize that if I want to create a more universally applicable lyric display, I may 
+have to sacrifice much of its uniqueness. Otherwise, the gap between the visual form 
+and the music being played will only distract the audience.
+
+Referring back to the contextual analysis concept from Ways of Seeing, it seems we 
+can either amplify this gap—prompting people to perceive it simply as a filter without 
+overthinking its implications—or make other adjustments as needed.
+
+### User Testing:
+
+Users enjoy the stop-motion feel of the music playing; however, they hope it could
+correspond to the rhythm of the music.
+
+### Data:
+- mp3
+- LRC (lyrics)
+
+### Libraries:
+- p5.js
+- p5.sound
+- p5.webserial
+
+### Components:
+- 3 - potentiometers
+
+### Reference: 
+- 3D Type
+- https://www.instagram.com/p/DCmy7IVSIcA/?img_index=1
+- 3D Type Generator
+- https://spacetypegenerator.com
+
+### Visual Explore
+ ![Visual Explore](./visual_explore.png)
+
+### FSM & System Diagram
+ ![FSM & System Diagram](./FSM&SYSTEM.jpg)
+
+### Circuit
+ ![Circuit](./CIRCUIT.jpg)
+
+
